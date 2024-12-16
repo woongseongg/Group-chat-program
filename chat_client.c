@@ -14,7 +14,7 @@
 /* 함수 원형 선언 */
 void *send_msg(void *arg);		// 서버로 메세지를 전송하는 스레드 함수
 void *recv_msg(void *arg);		// 서버로부터 메세지를 수신하는 스레드 함수
-void error_handling(char *msg);		// 프로그램 실행 중 오류가 발생했을 때 출력하는 함수
+void error_handling(char *msg);		// 오류 메시지를 출력하고 프로그램을 종료하는 함수
 
 /* 전역 변수 */
 char name[NAME_SIZ] = "[DEFAULT]";	// 사용자 이름을 저장하는 변수(기본값 : [DEFAULT])
