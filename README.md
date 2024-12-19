@@ -17,13 +17,13 @@ Group-chat-program-main/
 
 │ 
 
-├── chat_server.c # 서버 측 프로그램 
+├── chat_server.c          # 서버 측 프로그램 
 
-├── chat_client.c # 클라이언트 측 프로그램 
+├── chat_client.c          # 클라이언트 측 프로그램 
 
-├── LICENSE # 라이선스 파일 
+├── LICENSE                # 라이선스 파일 
 
-└── README.md # 프로젝트 설명 파일
+└── README.md              # 프로젝트 설명 파일
 
 
 ---
